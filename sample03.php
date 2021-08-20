@@ -19,7 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print(date('s'));
+print(date('G時 i分 s秒'));
 //秒を表示
 ?>
 </pre>
