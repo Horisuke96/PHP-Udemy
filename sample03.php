@@ -19,8 +19,8 @@
 <h2>Practice</h2>
 <pre>
 <?php
+date_default_timezone_set('Asia/Tokyo');
 print(date('G時 i分 s秒'));
-//秒を表示
 ?>
 </pre>
 </main>
