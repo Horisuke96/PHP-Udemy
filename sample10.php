@@ -18,7 +18,18 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<!-- ここにプログラムを記述します -->
+<?php
+//日本時間に変更
+date_default_timezone_set('Asia/Tokyo');
+
+print(date('G') . '時' . "\n");
+
+if (date('G') < 9){
+    print('※現在受付時間外です');
+}else{
+    print('ようこそ');
+}
+?>
 </pre>
 </main>
 </body>    
